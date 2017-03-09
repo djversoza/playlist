@@ -1,0 +1,56 @@
+.container-fluid {
+  width: 100vw;
+  height: 100vh;
+}
+
+/*==== Top Border====*/
+
+.rHead {
+  background-color: rgb(155	,155	,141);
+  height: 3%;
+}
+
+/*====Left Body====*/
+
+.rBody {
+  height: 94%;
+}
+
+.box {
+  text-align: center;
+  position: relative;
+  margin-top: 45%;
+}
+
+/*====Bottom Border====*/
+
+.rFoot {
+  height: 3%;
+  background-color: rgb(104	,104	,90);
+}
+
+/*====Pictures====*/
+
+.minPic {
+  margin-top: 10%;
+  margin: 0px auto;
+  padding: 10px;
+  height: 30%;
+  width: 30%;
+  display: list-item;
+  z-index: 4;
+}
+
+
+
+
+.right-pic {
+ background-image: url("resources/track.jpg");
+ height: 100%;
+ width: 100%;
+ padding-right: 0px;
+ background-size: cover;
+ overflow: hidden;
+ padding-right: 0px;
+ z-index: 2;
+}
